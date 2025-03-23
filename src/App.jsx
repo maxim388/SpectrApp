@@ -15,9 +15,9 @@ import { WavelengthProvider } from "./context/WavelengthContext";
 const { Header, Content, Footer } = Layout;
 
 const items1 = [
-  { key: "/table", label: "Таблица" },
-  { key: "/chart", label: "График" },
-  { key: "/results", label: "Результаты" },
+  { key: "/SpectrApp/table", label: "Таблица" },
+  { key: "/SpectrApp/chart", label: "График" },
+  { key: "/SpectrApp/results", label: "Результаты" },
 ];
 
 const AppContent = () => {
@@ -54,10 +54,10 @@ const AppContent = () => {
         >
           <Content style={{ padding: "0 24px", minHeight: 280 }}>
             <Routes>
-              <Route path="/table" element={<TableApp />} />
-              <Route path="/chart" element={<ChartApp />} />
-              <Route path="/results" element={<AnalysisChartApp />} />
-              <Route path="/" element={<TableApp />} />
+              <Route path="/SpectrApp/table" element={<TableApp />} />
+              <Route path="/SpectrApp/chart" element={<ChartApp />} />
+              <Route path="/SpectrApp/results" element={<AnalysisChartApp />} />
+              <Route path="/SpectrApp/" element={<TableApp />} />
             </Routes>
           </Content>
         </Layout>
