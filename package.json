@@ -1,6 +1,7 @@
 {
   "name": "victor_phd",
   "version": "0.1.0",
+  "homepage": "https://maxim388.github.io/SpectrApp",
   "private": true,
   "dependencies": {
     "@mui/material": "^6.4.7",
