@@ -113,12 +113,12 @@ const TableApp = () => {
         </div>
       </div>
       <div style={{ marginBottom: "16px" }}>
-        <span>Значения оптической плотности (разделяйте пробелами или запятыми): </span>
+        <span>Значения оптической плотности (через пробел или запятую): </span>
         <div>
           <TextArea
             value={inputValues}
             onChange={handleValuesChange}
-            placeholder="Введите значения, например: 2.092, 2.008, 1.953..."
+            placeholder="Введите значения оптической плотности для каждой длины волны в, например: 2.092, 2.008, 1.953..."
             rows={4}
             style={{ marginTop: "8px", width: "100%", maxWidth: "500px" }}
           />
